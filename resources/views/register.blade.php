@@ -85,11 +85,11 @@
                                                 <span class = "input-group-text bg-light border-end-0"><i class="fa-solid fa-list"></i></span>
                                                 <select name = "marathon_category" id = "marathon_category" class = "form-select bg-light border-start-0" required>
                                                     <option value = "" disabled selected>--Select your category--</option>
-                                                    <option value = "3KM">3K run</option>
-                                                    <option value = "5KM">5K run</option>
-                                                    <option value = "10KM">10K run</option>
-                                                    <option value = "21KM">21K run</option>
-                                                    <option value = "42KM">42K run</option>
+                                                    <option value = "3KM">3KM run</option>
+                                                    <option value = "5KM">5KM run</option>
+                                                    <option value = "10KM">10KM run</option>
+                                                    <option value = "21KM">21KM run</option>
+                                                    <option value = "42KM">42KM run</option>
                                                 </select>
                                             </div>
                                         </div>
