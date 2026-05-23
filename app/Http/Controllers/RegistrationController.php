@@ -19,7 +19,7 @@ class RegistrationController extends Controller
             'Full_name' => 'required|string|max:255',
             'age' => 'required|integer|min:1|max:120',
             'gender' => 'required|in:Male,Female',
-            'email' => 'required|email|unique:registration,email',
+            'email' => 'required|email|unique:registrations,email',
             'phone' => 'required|string|max:20',
             'address' => 'required|string|max:255',
             'marathon_category' => 'required|in:3KM,5KM,10KM,21KM,42KM',
@@ -28,7 +28,7 @@ class RegistrationController extends Controller
             'emergency_name' => 'required|string|max:255',
             'emergency_phone' => 'required|string|max:20',
             'emergency_relationship' => 'required|string|max:255',
-            'runner_number' => 'required|string|max:20|unique:registration,runner_number',
+            'runner_number' => 'required|string|max:20|unique:registrations,runner_number',
             'registration_date' => 'required|date',
         ]);
     }
